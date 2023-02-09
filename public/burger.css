@@ -1,0 +1,81 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+#ul_nav li a {
+  padding: 60px;
+  font-size: 20px;
+  color: black;
+}
+#ul_nav a:hover {
+  text-decoration: underline;
+}
+#ul_nav {
+  background: #603813; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b29f94,
+    #603813
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b29f94,
+    #603813
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 80px;
+}
+#ul_nav a {
+  margin-top: 18px;
+  margin-left: 100px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 10px;
+  color: black;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav p {
+  margin-top: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-left: 17px;
+  color: #e4e486;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+}
+div p {
+  margin-top: 200px;
+  font-size: 30px;
+  font-weight: bold;
+}
+div p span {
+  font-size: 40px;
+  font-weight: 800;
+  color: #e4e486;
+}
+div button {
+  width: 150px;
+  height: 35px;
+  font-size: 19px;
+  border-radius: 19%;
+  color: rgb(242, 230, 230);
+  border: none;
+  background: #603813; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b29f94,
+    #603813
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b29f94, #603813);
+}
+
+.second {
+  width: 200px;
+}
+div img {
+  margin-top: 100px;
+}
+
